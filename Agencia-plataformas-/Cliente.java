@@ -14,7 +14,7 @@ public class Cliente {
         this.correo = correo;
     }
 
-    public String getNombre() { return nombre; }
+    public String getNombre(){ return nombre; }
     public String getApellido() { return apellido; }
     public String getTelefono() { return telefono; }
     public String getCedula() { return cedula; }

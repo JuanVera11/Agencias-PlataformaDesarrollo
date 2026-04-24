@@ -9,7 +9,7 @@ public class Reserva {
     boolean esPagada;
     String estado; 
 
-    void crear(int id, String usuario, String vuelo, String hotel, String fecha, double precio, boolean pagada, String estado) {
+     public void crear(int id, String usuario, String vuelo, String hotel, String fecha, double precio, boolean pagada, String estado) {
         this.id = id;
         this.usuario = usuario;
         this.vuelo = vuelo;
