@@ -14,7 +14,8 @@ public class Cliente {
         this.correo = correo;
     }
 
-    public String getNombre(){ return nombre; }
+    // Getters
+    public String getNombre() { return nombre; }
     public String getApellido() { return apellido; }
     public String getTelefono() { return telefono; }
     public String getCedula() { return cedula; }
@@ -36,5 +37,15 @@ public class Cliente {
     public void mostrarInformacion() {
         System.out.println("Informacion del cliente:");
         System.out.println(nombre + " " + apellido + " " + correo);
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", cedula='" + cedula + '\'' +
+                ", correo='" + correo + '\'' +
+                '}';
     }
 }
